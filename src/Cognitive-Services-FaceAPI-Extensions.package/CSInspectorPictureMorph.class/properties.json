@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "AlphaImageMorph",
+	"category" : "Cognitive-Services-FaceAPI-Extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"picture",
+		"facesColor"
+	],
+	"name" : "CSInspectorPictureMorph",
+	"type" : "normal"
+}

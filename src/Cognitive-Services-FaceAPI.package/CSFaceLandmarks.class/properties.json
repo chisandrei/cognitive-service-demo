@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CSFaceProperties",
+	"category" : "Cognitive-Services-FaceAPI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CSFaceLandmarks",
+	"type" : "normal"
+}

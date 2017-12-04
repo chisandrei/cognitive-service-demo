@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Morph",
+	"category" : "Cognitive-Services-FaceAPI-Extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"face",
+		"scale",
+		"cachedForm"
+	],
+	"name" : "CSInspectorFaceMorph",
+	"type" : "normal"
+}

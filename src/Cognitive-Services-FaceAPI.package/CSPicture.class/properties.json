@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Cognitive-Services-FaceAPI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"faces",
+		"pictureForm"
+	],
+	"name" : "CSPicture",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Cognitive-Services-FaceAPI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rectangle",
+		"attributes",
+		"landmarks",
+		"containerPicture"
+	],
+	"name" : "CSFace",
+	"type" : "normal"
+}
