@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlInfiniteDataSource",
+	"category" : "Cognitive-Services-FaceAPI-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"faceApiClient",
+		"pictures"
+	],
+	"name" : "CSGalleryDataSource",
+	"type" : "normal"
+}

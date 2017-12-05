@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "Cognitive-Services-FaceAPI-Experiments",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"picture",
+		"bitmap"
+	],
+	"name" : "CSGalleryImageMorphOld",
+	"type" : "normal"
+}

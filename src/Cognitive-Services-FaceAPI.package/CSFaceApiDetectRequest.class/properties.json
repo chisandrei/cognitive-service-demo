@@ -6,10 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"faces",
-		"url",
-		"pictureForm"
+		"faceApiClient",
+		"returnFaceId",
+		"returnFaceLandmarks",
+		"returnFaceAttributes"
 	],
-	"name" : "CSPicture",
+	"name" : "CSFaceApiDetectRequest",
 	"type" : "normal"
 }

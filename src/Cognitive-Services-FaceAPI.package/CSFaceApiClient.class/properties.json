@@ -2,14 +2,15 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Cognitive-Services-FaceAPI",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"defaultKey"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"faces",
-		"url",
-		"pictureForm"
+		"subscriptionKey",
+		"location"
 	],
-	"name" : "CSPicture",
+	"name" : "CSFaceApiClient",
 	"type" : "normal"
 }

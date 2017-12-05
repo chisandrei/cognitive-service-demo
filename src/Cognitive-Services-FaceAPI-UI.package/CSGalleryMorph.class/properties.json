@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BlInfiniteElement",
+	"category" : "Cognitive-Services-FaceAPI-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CSGalleryMorph",
+	"type" : "normal"
+}
