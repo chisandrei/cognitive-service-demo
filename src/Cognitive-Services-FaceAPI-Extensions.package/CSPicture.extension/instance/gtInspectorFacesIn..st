@@ -5,7 +5,9 @@ gtInspectorFacesIn: composite
 		title: 'Faces';
 		display: [ self faces ];
 		column: '' evaluated: [ :aFace | 
-			aFace faceForm scaledIntoFormOfSize: 32@32 ] width: 32;
+			self pictureForm 
+				ifNil: [ '' ] 
+				ifNotNil: [ aFace faceForm scaledIntoFormOfSize: 32@32 ] ] width: 32;
 		column: 'Location' evaluated: [ :aFace | 
 			aFace rectangle ] width: 200;
 		column: 'Gender' evaluated: [ :aFace | 
