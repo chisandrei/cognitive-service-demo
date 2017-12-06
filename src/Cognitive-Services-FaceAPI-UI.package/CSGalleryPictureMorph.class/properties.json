@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"picture",
-		"pictureWrapper"
+		"pictureWrapper",
+		"containerMorph"
 	],
 	"name" : "CSGalleryPictureMorph",
 	"type" : "normal"

@@ -1,10 +1,9 @@
-accessing
-ensurePictureForm
+actions
+downloadPictureFormFor: aPicture
 	| client |
-	self pictureForm ifNotNil: [ ^ self ].
-	self url ifNil: [ ^ self ].
+	aPicture url ifNil: [ ^ nil ].
 	client := ZnClient new
  		beOneShot;
   		contentReader: [ :entity | 
 			ImageReadWriter formFromStream: entity readStream binary ].
-	pictureForm := client get: self url
+	^ client get: aPicture url

@@ -1,3 +1,3 @@
 accessing
 itemCount
-	^ pictures ifNil: [ 0 ] ifNotNil: [ pictures size ]
+	^ self pictures size

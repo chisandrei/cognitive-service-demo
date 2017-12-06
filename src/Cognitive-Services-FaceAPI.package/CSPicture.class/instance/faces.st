@@ -1,3 +1,3 @@
 accessing
 faces
-	^ faces
+	^ faces ifNil: [ #() ]

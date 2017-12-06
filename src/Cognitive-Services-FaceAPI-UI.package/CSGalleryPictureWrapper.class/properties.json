@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Cognitive-Services-FaceAPI-UI",
+	"classinstvars" : [
+		"defaultPictureForm"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"index",
+		"picture",
+		"extent",
+		"dataSource",
+		"loaderProcess"
+	],
+	"name" : "CSGalleryPictureWrapper",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+accessing
+hasFaceStorage
+	^ faces ~= nil

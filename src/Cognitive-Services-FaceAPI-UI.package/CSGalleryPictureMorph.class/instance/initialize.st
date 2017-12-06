@@ -2,11 +2,11 @@ initialization
 initialize
 	| scalableElement |
 	super initialize.
-	pictureWrapper := BlElement new.
+	containerMorph := BlElement new.
 	scalableElement := BlScalableElement new
 		background: Color red;
 		fitWidth;
-		contentElement: pictureWrapper;
+		contentElement: containerMorph;
 		constraintsDo: [ :c | 
 			c horizontal matchParent.
 			c vertical fitContent ].
