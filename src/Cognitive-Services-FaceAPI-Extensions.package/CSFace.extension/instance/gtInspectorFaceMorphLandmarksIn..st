@@ -5,5 +5,4 @@ gtInspectorFaceMorphLandmarksIn: composite
 		title: 'Face (landmmarks)';
 		display: [ CSInspectorFaceMorph new 
 			initializeForFace: self 
-			withExtent: 256@256 ];
-		when: [ self containerPicture notNil ]
+			withExtent: 256@256 ]

@@ -2,9 +2,9 @@ utils
 ensureCachedForm
 	^ cachedForm ifNil: [
 		| faceForm |
-		faceForm := face faceForm.
-		faceForm ifNil: [ 
-			faceForm := (Form extent: face rectangle extent) 
+		faceForm := face hasFaceForm 
+			ifTrue: [ face faceForm ]
+			ifFalse: [ (Form extent: face rectangle extent) 
 				fillColor: Color white ].
 		cachedForm := faceForm 
 			magnify: faceForm boundingBox 
