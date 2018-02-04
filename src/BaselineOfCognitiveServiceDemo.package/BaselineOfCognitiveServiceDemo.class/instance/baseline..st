@@ -17,5 +17,5 @@ baseline: spec
 			
 		spec 
 			group: 'part1' with: #('Cognitive-Services-FaceAPI' 'Cognitive-Services-FaceAPI-Examples' 'Cognitive-Services-FaceAPI-Extensions');
-			group: 'part2' with: #('core' 'Cognitive-Services-FaceAPI-UI' 'Cognitive-Services-FaceAPI-Experiments');
+			group: 'part2' with: #('part1' 'Cognitive-Services-FaceAPI-UI' 'Cognitive-Services-FaceAPI-Experiments');
 			group: 'default' with: #('part2') ]
