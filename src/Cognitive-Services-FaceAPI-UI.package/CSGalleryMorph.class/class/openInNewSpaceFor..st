@@ -9,6 +9,7 @@ openInNewSpaceFor: galleryDataSource
 			c vertical matchParent ].
 
 	space := BlSpace new.
+	space title: 'Pictures gallery'.
 	space root addChild: galleryMorph.
 	space show.
 	^ space

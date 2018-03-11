@@ -4,7 +4,6 @@ initialize
 	super initialize.
 	containerMorph := BlElement new.
 	scalableElement := BlScalableElement new
-		background: Color red;
 		fitWidth;
 		contentElement: containerMorph;
 		constraintsDo: [ :c | 
