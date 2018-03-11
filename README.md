@@ -1,8 +1,10 @@
-# cognitive-service-demo
+# Cognitive Service Demo: Gallery with face detection
 
+This is a small application that displays a galery of pictures and uses the Azures Face API to highlight faces within those pictures.
+
+<img src="docs/images/PicturesGallery.png"/>
 
 ## Loading the code
-
 
 Loading the complete application, including Bloc can be done with the following snippet:
 ```
@@ -22,9 +24,9 @@ Metacello new
 
 ## Starting the application
 
-To start the application you need to configure a datasource that will provide the user interface with a list of picture objects. 
+To start the application you need to configure a data source that will provide the user interface with a list of picture objects. 
 
-We can configure the datasource based on a list of URLs pointing to pictures. The class `CSExamplesData` provides an example of pictures from [unsplash.com](https://unsplash.com/). In case you have an API key for the Face API you can configure the datasource just with the URL for the pictures. The Face API will then be used to locate faces within the given picture.
+We can configure the data source based on a list of URLs pointing to pictures. The class `CSExamplesData` provides an example of pictures from [unsplash.com](https://unsplash.com/). In case you have an API key for the Face API you can configure the data source just with the URL for the pictures. The Face API will then be used to locate faces within the given picture.
 
 ```
 CSFaceApiClient defaultKey: Clipboard clipboardText asString.
@@ -69,3 +71,13 @@ space := BlSpace new.
 space root addChild: galleryMorph.
 space show.
 ```
+
+## Inspector extensions
+
+To quickly esperiment with the gallery morph, instead of opening it in a new window, you can also inspect it. The inspector has a Live view that shows the gallery:
+
+<img src="docs/images/Playground-GalleryLive.png"/>
+
+Inspecting the data source also show information about the pictures, like the number of faces from each picture:
+
+<img src="docs/images/Playground-DatasourceFaces.png"/>
