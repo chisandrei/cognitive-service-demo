@@ -1,4 +1,3 @@
 accessing - dynamic
 faceForm
-	^ self containerPicture pictureForm ifNotNil: [ :aForm |
-		aForm copy: self rectangle ]
+	^ self containerPicture pictureForm copy: self rectangle
