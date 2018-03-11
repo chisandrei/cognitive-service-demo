@@ -1,3 +1,3 @@
-accessing
+testing
 hasFaceStorage
 	^ faces ~= nil

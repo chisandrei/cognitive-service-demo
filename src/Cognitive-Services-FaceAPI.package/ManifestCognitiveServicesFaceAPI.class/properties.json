@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "AndreiChis 3/11/2018 15:55",
-	"super" : "CSFaceProperties",
+	"commentStamp" : "<historical>",
+	"super" : "PackageManifest",
 	"category" : "Cognitive-Services-FaceAPI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CSFaceAttributes",
+	"name" : "ManifestCognitiveServicesFaceAPI",
 	"type" : "normal"
 }

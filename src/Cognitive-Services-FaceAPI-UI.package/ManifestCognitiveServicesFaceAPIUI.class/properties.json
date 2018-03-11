@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "AndreiChis 3/11/2018 16:08",
-	"super" : "BlInfiniteElement",
+	"commentStamp" : "<historical>",
+	"super" : "PackageManifest",
 	"category" : "Cognitive-Services-FaceAPI-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CSGalleryMorph",
+	"name" : "ManifestCognitiveServicesFaceAPIUI",
 	"type" : "normal"
 }
