@@ -1,6 +1,6 @@
 # Cognitive Service Demo: Gallery with face detection
 
-This is a small application that displays a galery of pictures and uses the Azures Face API to highlight faces within those pictures.
+This is an application that displays a galery of pictures and uses the Azures Face API to highlight faces within those pictures.
 
 <img src="docs/images/PicturesGallery.png"/>
 
