@@ -1,6 +1,6 @@
 # Cognitive Service Demo: Gallery with face detection
 
-This is an application that displays a galery of pictures and uses the Azures Face API to highlight faces within those pictures.
+This is an application that displays a galery of pictures and uses the Azures Face API to highlight faces within those pictures. The application is written in [Pharo](pharo.org) and uses [Bloc](https://github.com/pharo-graphics/Bloc/) as a graphical framework.
 
 <img src="docs/images/PicturesGallery.png"/>
 
