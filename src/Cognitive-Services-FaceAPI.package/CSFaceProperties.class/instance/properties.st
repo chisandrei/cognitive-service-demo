@@ -1,3 +1,3 @@
 accessing
 properties
-	^ properties ifEmpty: [ properties := OrderedDictionary new ]
+	^ properties ifNil: [ properties := OrderedDictionary new ]

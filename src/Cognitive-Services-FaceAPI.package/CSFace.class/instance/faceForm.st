@@ -1,3 +1,4 @@
 accessing - dynamic
 faceForm
-	^ self containerPicture pictureForm copy: self rectangle
+	^ self hasFaceForm ifTrue: [ 
+		self containerPicture pictureForm copy: self rectangle ]
