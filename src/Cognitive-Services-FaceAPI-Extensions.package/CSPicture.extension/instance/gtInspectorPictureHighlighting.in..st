@@ -13,4 +13,4 @@ gtInspectorPictureHighlighting: facesColor in:composite
 				morphPresentation selection: (displayMorph     
 					objectAtLocalCoordinates: event position)].
 			displayMorph ];
-		when: [ self pictureForm notNil ]
+		when: [ self pictureForm notNil or: [ self faces notEmpty ] ]
