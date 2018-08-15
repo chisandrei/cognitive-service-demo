@@ -8,6 +8,8 @@ baseline: spec
 			package: 'Cognitive-Services-FaceAPI';
 			package: 'Cognitive-Services-FaceAPI-Examples' with: [ 
 				spec requires: #('Cognitive-Services-FaceAPI') ];
+			package: 'Cognitive-Services-FaceAPI-BlocExtensions' with: [ 
+				spec requires: #('Cognitive-Services-FaceAPI') ];
 			package: 'Cognitive-Services-FaceAPI-Extensions' with: [ 
 				spec requires: #('Cognitive-Services-FaceAPI') ];
 			package: 'Cognitive-Services-FaceAPI-UI' with: [ 
