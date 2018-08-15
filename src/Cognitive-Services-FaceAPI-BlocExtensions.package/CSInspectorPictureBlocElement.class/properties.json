@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "Cognitive-Services-FaceAPI-BlocExtensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"picture",
+		"container"
+	],
+	"name" : "CSInspectorPictureBlocElement",
+	"type" : "normal"
+}
