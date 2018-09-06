@@ -7,6 +7,6 @@ faceEinsteinWithLandmarksInPicture
 	picture ensureFacesStorage.
 	picture
 		addFace: face.
-	picture ensurePictureForm.
+	picture loadPictureFormFile: self pictureFile.
 	self assert: face landmarks notNil.
 	^ face

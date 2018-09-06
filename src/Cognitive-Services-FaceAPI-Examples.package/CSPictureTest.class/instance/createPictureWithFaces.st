@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 createPictureWithFaces
 	| picture |
 	picture := self createEmptyPicture.

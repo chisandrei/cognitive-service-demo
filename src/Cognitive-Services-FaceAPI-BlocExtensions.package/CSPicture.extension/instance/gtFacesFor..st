@@ -1,7 +1,7 @@
 *Cognitive-Services-FaceAPI-BlocExtensions
 gtFacesFor: aView
 	<gtView: 0>
-	^ aView 
+	^ aView explicit
 		title: 'Faces';
 		stencil: [ 
 			CSInspectorPictureBlocElement new 

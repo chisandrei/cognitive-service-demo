@@ -1,4 +1,4 @@
-accessing
+wikipedia - json object landmarks
 jsonFaceLandmarksSolovine
 	^ STONJSON fromString: '{
 			"noseRootRight" : {

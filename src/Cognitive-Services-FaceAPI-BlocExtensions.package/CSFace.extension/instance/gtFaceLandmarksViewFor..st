@@ -1,7 +1,7 @@
 *Cognitive-Services-FaceAPI-BlocExtensions
 gtFaceLandmarksViewFor: aView
 	<gtView: 0>
-	^ aView 
+	^ aView explicit
 		title: 'Face (landmarks)';
 		stencil: [ 
 			| faceElement extentElement |
